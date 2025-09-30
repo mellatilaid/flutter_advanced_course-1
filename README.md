@@ -14,27 +14,23 @@ This repository is designed for experimenting with APIs in advanced ways, using 
 
 ## About
 
-`flutter_advanced_course` is a playground for advanced API usage in Flutter. It provides examples, utilities, and best practices for working with RESTful APIs, GraphQL, WebSockets, and custom endpoints. The repository is organized to help you explore and master complex tasks such as authentication, caching, pagination, error handling, and more.
+`flutter_advanced_course` is a playground for advanced API usage in Flutter. It provides examples, utilities, and best practices for working with RESTful APIs, and custom endpoints. The repository is organized to help explore and master complex tasks such as authentication, caching, pagination, error handling, and more.
 
 ## Features
 
 - Advanced API integration with Flutter
-- Examples of REST, GraphQL, and WebSocket APIs
+- Examples of REST APIs
 - Custom HTTP clients and interceptors
 - State management for API-driven apps
 - Error handling and logging strategies
 - Performance optimization tips
 - Token-based authentication flows
 - Pagination and infinite scrolling
-- Real-time updates with WebSockets
-- Mocking APIs for testing
+
 
 ## Technologies Used
 
 - **Flutter (Dart)**: Main application code and UI
-- **C++ / C / CMake**: Native performance modules and plugins
-- **Swift**: iOS-specific integrations
-- **HTML**: Web API and documentation assets
 
 ## Getting Started
 
@@ -67,18 +63,10 @@ lib/
   network/
   features/
   utils/
-native/
-  cpp/
-  swift/
-assets/
-test/
-docs/
 ```
 
 - `lib/`: Main source code
-- `native/`: Native modules (C++, Swift, C)
 - `assets/`: Static files
-- `test/`: Unit and integration tests
 - `docs/`: Documentation
 
 ## Contributing
